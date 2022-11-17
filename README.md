@@ -1,1 +1,1 @@
-# cultiv-blog-frontend-challenge
+# Cultive Blog Frontend Challenge
