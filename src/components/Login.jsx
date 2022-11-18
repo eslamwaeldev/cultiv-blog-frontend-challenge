@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Login() {
   return (
-    <div className="w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-md  mt-8 shadow-lg">
+    <div className="w-full sm:max-w-sm p-6 m-auto mx-auto bg-white rounded-md  mt-8 shadow-xl max-w-xs ">
       <h1 className="text-3xl font-semibold text-center text-gray-700 ">Cultiv</h1>
       <form className="mt-6">
         <div>
@@ -14,7 +14,6 @@ export default function Login() {
             className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md   focus:border-blue-400  focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
           />
         </div>
-
         <div className="mt-4">
           <div className="flex items-center justify-between">
             <label for="password" className="block text-sm text-gray-800 ">
