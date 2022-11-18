@@ -7,7 +7,7 @@ function App(props) {
 
   return (
     <>
-      <div className="h-screen w-full">
+      <div className="h-screen sm:w-full w-screen bg-gray-200">
         <Navbar />
         <div id="detail">
           <Outlet />
