@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="relative bg-white shadow  w-screen">
+    <nav className="relative shadow  w-screen bg-gray-100">
       <div className="container px-6 py-3 mx-auto md:flex">
         <div className="flex items-center justify-between">
           <div>
@@ -16,7 +16,7 @@ export default function Navbar() {
             </a>
           </div>
 
-          <div className="flex lg:hidden">
+          <div className="flex lg:hidden ">
             <button
               x-cloak="true"
               onClick={() => {
@@ -57,18 +57,24 @@ export default function Navbar() {
           x-cloak="true"
           className={`${
             isOpen ? "translate-x-0 opacity-100 " : "opacity-0 -translate-x-full"
-          } absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white  md:mt-0 md:p-0 md:top-0 md:relative md:opacity-100 md:translate-x-0 md:flex md:items-center md:justify-between`}
+          } absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-gray-100  md:mt-0 md:p-0 md:top-0 md:relative md:opacity-100 md:translate-x-0 md:flex md:items-center md:justify-between`}
         >
           <div className="flex flex-col px-2 -mx-4 md:flex-row md:mx-10 md:py-0">
             <Link
               to={`/`}
               className="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 md:mx-2"
+              onClick={() => {
+                setIsOpen(false);
+              }}
             >
               Home
             </Link>
             <Link
               to={`/login`}
               className="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg  hover:bg-gray-100  md:mx-2"
+              onClick={() => {
+                setIsOpen(false);
+              }}
             >
               Login
             </Link>
