@@ -6,7 +6,7 @@ export default function Login() {
       <h1 className="text-3xl font-semibold text-center text-gray-700 ">Cultiv</h1>
       <form className="mt-6">
         <div>
-          <label for="username" className="block text-sm text-gray-800 text-left">
+          <label htmlFor="username" className="block text-sm text-gray-800 text-left">
             Username
           </label>
           <input
@@ -16,7 +16,7 @@ export default function Login() {
         </div>
         <div className="mt-4">
           <div className="flex items-center justify-between">
-            <label for="password" className="block text-sm text-gray-800 ">
+            <label htmlFor="password" className="block text-sm text-gray-800 ">
               Password
             </label>
             <a href="#" className="text-xs text-gray-600  hover:underline">
