@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "title": "test1",
+      "author": { "id": 1, "name": "Eslam" },
+      "content": "# h1 Heading 8-)## h2 Heading ### h3 Heading #### h4 Heading##### h5 Heading ###### h6 Heading **This is bold text** test.. test... test..... test?..... test!....",
+      "next": "www.google.com",
+      "prev": "www.google.com",
+      "date": { "day": 1, "month": 5, "year": 2022 }
+    },
+    {
+      "title": "test1",
+      "author": { "id": 2, "name": "Ali" },
+      "content": "# h1 Heading 8-)## h2 Heading ### h3 Heading #### h4 Heading##### h5 Heading ###### h6 Heading **This is bold text** test.. test... test..... test?..... test!....",
+      "next": "www.google.com",
+      "prev": "www.google.com",
+      "date": { "day": 1, "month": 5, "year": 2022 }
+    },
+    {
+      "title": "test1",
+      "author": { "id": 3, "name": "Ahmed" },
+      "content": "# h1 Heading 8-)## h2 Heading ### h3 Heading #### h4 Heading##### h5 Heading ###### h6 Heading **This is bold text** test.. test... test..... test?..... test!....",
+      "next": "www.google.com",
+      "prev": "www.google.com",
+      "date": { "day": 1, "month": 5, "year": 2022 }
+    },
+    {
+      "title": "test1",
+      "author": { "id": 1, "name": "Patrick" },
+      "content": "# h1 Heading 8-)## h2 Heading ### h3 Heading #### h4 Heading##### h5 Heading ###### h6 Heading **This is bold text** test.. test... test..... test?..... test!....",
+      "next": "www.google.com",
+      "prev": "www.google.com",
+      "date": { "day": 1, "month": 5, "year": 2022 }
+    },
+    {
+      "title": "test1",
+      "author": { "id": 1, "name": "Luffy" },
+      "content": "# h1 Heading 8-)## h2 Heading ### h3 Heading #### h4 Heading##### h5 Heading ###### h6 Heading **This is bold text** test.. test... test..... test?..... test!....",
+      "next": "www.google.com",
+      "prev": "www.google.com",
+      "date": { "day": 1, "month": 5, "year": 2022 }
+    },
+    {
+      "title": "test1",
+      "author": { "id": 1, "name": "Batates" },
+      "content": "# h1 Heading 8-)## h2 Heading ### h3 Heading #### h4 Heading##### h5 Heading ###### h6 Heading **This is bold text** test.. test... test..... test?..... test!....",
+      "next": "www.google.com",
+      "prev": "www.google.com",
+      "date": { "day": 1, "month": 5, "year": 2022 }
+    }
+  ]
+}
