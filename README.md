@@ -15,7 +15,7 @@ yarn
 ```
 yarn dev
 ```
-- open new terminal
+- open new terminal and navigate to the same directory
 
 ```
 yarn json-graphql-server  graphql-server.json --p 5000
@@ -38,4 +38,6 @@ yarn json-graphql-server  graphql-server.json --p 5000
 ![Blog Page](docs/BlogPage1.png)
 
 ![Blog Page](docs/BlogPage2.png)
+
+- Responsive design
 
