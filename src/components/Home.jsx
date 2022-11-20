@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="flex items-start  sm:justify-start justify-center px-6 mt-4">
+      <div className="flex items-start sm:justify-start justify-center px-6 mt-4">
         <h1 className="text-2xl self-start text-gray-900 mt-4">Blogs</h1>
       </div>
       <div className="mt-1 grid sm:grid-cols-3 gap-x-6 gap-y-6 items-start p-6 bg-gray-200">
