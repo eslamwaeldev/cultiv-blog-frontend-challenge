@@ -2,56 +2,54 @@
   "posts": [
     {
       "id": "blog1",
-      "title": "Title of the first blog",
-      "author": { "id": 1, "name": "Yone" },
-      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos **bold** --- \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
-      "next": "www.google.com",
-      "prev": "www.google.com",
+      "title": "Beginner JavaScript Tutorial: How to build your own Mad Libs game",
+      "author": { "id": 1, "name": "Jessica Wilkins" },
+      "content": "When you are learning JavaScript, it is really important to continually practice your skills and build projects along the way. That is going to help you solidify your knowledge and make you a stronger developer. In this article, I will walk you through how to create your own Mad Libs using HTML, CSS and JavaScript. Mad Libs is a popular word game where you have an existing piece of text with blank spaces and you ty to fill in those blanks with verbs, nouns and adjectives. Usually the outcome produces some sort of wacky or funny result. **bold** --- \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
+      "next": "/blogs/blog2",
       "date": { "day": 1, "month": 5, "year": 2022 }
     },
     {
       "id": "blog2",
-      "title": "Title of the second blog",
-      "author": { "id": 2, "name": "Ashe" },
-      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos  **bold**  \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
-      "next": "www.google.com",
-      "prev": "www.google.com",
+      "title": "Django Argon Theme Now supports all Django.contrib.AUTH links",
+      "author": { "id": 2, "name": "Sm0ke" },
+      "content": "Django Argon Theme, a popular open-source project, has been updated to fully cover the default Django Authentication links (registration included). The product is released under the MIT license on GitHub and the sources can be used in commercial projects or eLearning activities without any constraints. Thanks for reading!  **bold**  \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
+      "next": "/blogs/blog3",
+      "prev": "/blogs/blog1",
       "date": { "day": 1, "month": 4, "year": 2022 }
     },
     {
       "id": "blog3",
-      "title": "Title of the third blog",
+      "title": "Mastodon tips",
       "author": { "id": 3, "name": "Oda" },
-      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos **bold**  \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
-      "next": "www.google.com",
-      "prev": "www.google.com",
+      "content": "With the recent changes to the bird app, Many people have been moving towards Mastodon. I had an account a long time ago but that instance closed and I had to find a new one. I didn't use it much then but now I'm figuring out the site. Here, are a few tips I've learned from about a month on Mastodon. **bold**  \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
+      "next": "/blogs/blog4",
+      "prev": "/blogs/blog2",
       "date": { "day": 1, "month": 5, "year": 2022 }
     },
     {
       "id": "blog4",
-      "title": "Title of the fourth blog",
-      "author": { "id": 1, "name": "Patrick" },
-      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos **bold**  \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
-      "next": "www.google.com",
-      "prev": "www.google.com",
+      "title": "Master DevOps career and interview",
+      "author": { "id": 1, "name": "Firdavs Kasymov" },
+      "content": "DevOps is the intersection of Development and Operations, application release processes. When working on an application, the developer's main goal is to deliver the result to the end user, regardless of whether you use the Agile or Waterfall approach. The user must be able to use the app no matter what.DevOps means making this continuous delivery process faster with minimal errors and preventing bugs. So, DevOps provides high-quality and well-tested improvements delivered to users. **bold**  \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
+      "next": "/blogs/blog5",
+      "prev": "/blogs/blog3",
       "date": { "day": 1, "month": 5, "year": 2022 }
     },
     {
       "id": "blog5",
-      "title": "Title of the fifth blog",
-      "author": { "id": 1, "name": "Lucci" },
-      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos  **bold** \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n ",
-      "next": "www.google.com",
-      "prev": "www.google.com",
+      "title": "Implementing a feature with Vanilla JavaScript",
+      "author": { "id": 1, "name": "Maxim Nosov" },
+      "content": "To be honest, I truly enjoy vanilla JS. Without a doubt, there are so many useful JavaScript frameworks that could save a lot of time. Yet, it's amazing what kind of things we can do with vanilla JavaScript: speech recognition, video recording, slider, carousel, etc. **bold** \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n ",
+      "next": "/blogs/blog6",
+      "prev": "/blogs/blog4",
       "date": { "day": 1, "month": 5, "year": 2022 }
     },
     {
       "id": "blog6",
-      "title": "Title of the sixth blog",
-      "author": { "id": 1, "name": "Natalie" },
-      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos  **bold** \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
-      "next": "www.google.com",
-      "prev": "www.google.com",
+      "title": "The Queue Data Strucure and How to Implement a Queue in Ruby",
+      "author": { "id": 1, "name": "professorjrod" },
+      "content": "It is especially useful in threaded programming when information must be exchanged safely between multiple threads. Ruby's Queue has many methods that are more are less the same as Array. Unlike the array implementation from before, the Ruby Queue class is thread-safe and commonly used for coordinating work in multi-threaded programs. **bold** \r\n ### test test test \r\ntest test \r\n\r\n> test test test test\r\n\r\n\r\test test test\n### test test test \r\n**test test **\r\n\r\n> test test test test\r\n\r\n\r\test test test\n",
+      "prev": "/blogs/blog5",
       "date": { "day": 1, "month": 5, "year": 2022 }
     }
   ]
