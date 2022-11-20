@@ -51,7 +51,7 @@ export default function Blog() {
         </a>
       </div>
       <div className=" border-b-2 border-gray-600 w-2/3"></div>
-      <div className="flex sm:flex-row flex-col gap-2 items-start justify-start w-2/3 relative">
+      <div className="flex sm:flex-row flex-col sm:gap-8  items-start justify-start  w-2/3 relative">
         <Link
           to={`/`}
           className="px-2.5 py-2 text-gray-700 transition-colors duration-300 transform rounded-lg  hover:bg-gray-100 md:mx-2"
@@ -70,7 +70,7 @@ export default function Blog() {
         >
           Login
         </Link>
-        <p className="absolute right-0 px-2.5 py-2 text-gray-500 transition-colors duration-300 transform rounded-lg  md:mx-2 text-sm">
+        <p className="sm:absolute sm:right-0 px-2.5 py-2 text-gray-500 transition-colors duration-300 transform rounded-lg  md:mx-2 text-sm">
           ©2022. Responsive Blog.
         </p>
       </div>
