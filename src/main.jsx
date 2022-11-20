@@ -8,7 +8,6 @@ import Login from "./components/Login";
 import Blog from "./components/Blog";
 import Home from "./components/Home";
 import App from "./App";
-
 import "./index.css";
 
 const router = createBrowserRouter([
