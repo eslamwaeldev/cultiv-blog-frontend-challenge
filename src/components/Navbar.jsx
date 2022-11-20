@@ -8,12 +8,12 @@ export default function Navbar() {
       <div className="container px-6 py-3 mx-auto md:flex">
         <div className="flex items-center justify-between">
           <div>
-            <a
+            <Link
               className="text-2xl font-bold text-gray-800 transition-colors duration-300 transform  lg:text-3xl hover:text-gray-700 "
-              href="#"
+              to={`/`}
             >
               Cultiv
-            </a>
+            </Link>
           </div>
 
           <div className="flex md:hidden ">
