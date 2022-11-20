@@ -31,17 +31,21 @@ export default function Blog() {
       <div className=" border-b-2 border-gray-600 w-2/3"></div>
       <div className="flex flex-row gap-60 my-4">
         <a
-          href="#"
-          className="flex items-center px-4 py-2 mx-1 text-gray-500 bg-gray-200 rounded-md hover:bg-white cursor-not-allowed "
+          href={data?.Post?.prev ? data.Post.prev : "#"}
+          className={`flex items-center px-4 py-2 mx-1 text-gray-500 bg-gray-200 rounded-md  ${
+            data?.Post?.prev ? "hover:bg-white " : "cursor-not-allowed hover:text-gray-500"
+          }`}
         >
           {"<"} Prev
         </a>
         <p className=" px-2.5 py-2 text-gray-500 transition-colors duration-300 transform rounded-lg  md:mx-2">
-          Page 1 of 2
+          Page 1 of 1
         </p>
         <a
-          href="#"
-          className="flex items-center px-4 py-2 mx-1 text-gray-500 transition-colors duration-300 transform bg-gray-200 rounded-md  hover:bg-white  hover:text-blue-600 "
+          href={data?.Post?.next ? data.Post.next : "#"}
+          className={`${
+            data?.Post?.next ? "hover:bg-white" : "cursor-not-allowed hover:text-gray-500"
+          } flex items-center px-4 py-2 mx-1 text-gray-500 transition-colors duration-300 transform bg-gray-200 rounded-md   `}
         >
           Next {">"}
         </a>
