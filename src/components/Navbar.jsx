@@ -10,13 +10,13 @@ export default function Navbar() {
           <div>
             <a
               className="text-2xl font-bold text-gray-800 transition-colors duration-300 transform  lg:text-3xl hover:text-gray-700 "
-              href="/"
+              href="#"
             >
               Cultiv
             </a>
           </div>
 
-          <div className="flex lg:hidden ">
+          <div className="flex md:hidden ">
             <button
               x-cloak="true"
               onClick={() => {
@@ -57,7 +57,7 @@ export default function Navbar() {
           x-cloak="true"
           className={`${
             isOpen ? "translate-x-0 opacity-100 " : "opacity-0 -translate-x-full"
-          } absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-gray-100  md:mt-0 md:p-0 md:top-0 md:relative md:opacity-100 md:translate-x-0 md:flex md:items-center md:justify-between`}
+          } absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-gray-100  md:mt-0 md:p-0 md:top-0 md:relative md:opacity-100 md:translate-x-0 md:flex md:items-center md:justify-between flex flex-col md:flex-row  items-center justify-center `}
         >
           <div className="flex flex-col px-2 -mx-4 md:flex-row md:mx-10 md:py-0">
             <Link
@@ -80,7 +80,7 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <div className="  relative mt-4 md:mt-0 w-1/4 items-center">
+          <div className="relative mt-4 md:mt-0 md:w-1/4  w-full items-center">
             <span className="absolute inset-y-0 left-0 flex items-center pl-3">
               <svg className="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none">
                 <path
@@ -95,7 +95,7 @@ export default function Navbar() {
 
             <input
               type="text"
-              className="sm:w-full w-80  py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg  focus:border-blue-400  focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+              className="w-full py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg  focus:border-blue-400  focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
               placeholder="Search"
             />
           </div>
