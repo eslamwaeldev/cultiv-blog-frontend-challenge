@@ -80,7 +80,7 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <div className="relative mt-4 md:mt-0 w-1/4">
+          <div className="  relative mt-4 md:mt-0 w-1/4 items-center">
             <span className="absolute inset-y-0 left-0 flex items-center pl-3">
               <svg className="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none">
                 <path
@@ -95,7 +95,7 @@ export default function Navbar() {
 
             <input
               type="text"
-              className="w-full py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg  focus:border-blue-400  focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+              className="sm:w-full w-80  py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg  focus:border-blue-400  focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
               placeholder="Search"
             />
           </div>

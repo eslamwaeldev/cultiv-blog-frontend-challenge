@@ -14,7 +14,7 @@ export default function Blog() {
   return (
     <div className="flex flex-col items-center justify-center mt-8 gap-6 bg-gray-200 p-8">
       <img
-        className="w-2/4 h-80 xl:h-[28rem] rounded-xl  "
+        className="sm:w-2/4 sm:h-80 w-3/4 h-60 xl:h-[28rem] rounded-xl  "
         src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
         alt="blog image"
       />
@@ -29,7 +29,7 @@ export default function Blog() {
         </Remark>
       </article>
       <div className=" border-b-2 border-gray-600 w-2/3"></div>
-      <div className="flex flex-row gap-60 my-4">
+      <div className="flex sm:flex-row sm:gap-60 flex-col gap-5  my-4">
         <a
           href={data?.Post?.prev ? data.Post.prev : "#"}
           className={`flex items-center px-4 py-2 mx-1 text-gray-500 bg-gray-200 rounded-md  ${
